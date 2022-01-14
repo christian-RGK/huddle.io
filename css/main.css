@@ -1,0 +1,40 @@
+main {
+  position: relative;
+  padding-block-start: 7rem;
+  text-align: center;
+  color: var(--colorGrayishBlue);
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.articleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  box-sizing: border-box;
+}
+
+.articleContainer p {
+  margin-block-end: 0;
+}
+
+.articleContainer img {
+  max-inline-size: 85%;
+}
+
+.build {
+  position: relative;
+  top: 4.375rem;
+  max-inline-size: 40rem;
+  margin: auto;
+  margin-block-start: 7rem;
+  padding-block-end: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  background-color: var(--white);
+}

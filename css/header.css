@@ -1,0 +1,47 @@
+header {
+  padding-block-start: 2.5rem;
+  padding-block-end: 2.5rem;
+  text-align: center;
+  color: var(--colorDarkCyan);
+  background: url('../assets/images/bg-hero-mobile.svg') no-repeat center /
+    cover;
+  background-color: var(--backgroundColor);
+}
+
+.headerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerNav .headerNav-btn {
+  padding-inline-start: 1.9rem;
+  padding-inline-end: 1.9rem;
+  padding-block-start: 0.4375rem;
+  padding-block-end: 0.4375rem;
+  border: none;
+  border-radius: 1.5625rem;
+  font: var(--btn);
+  cursor: pointer;
+  color: var(--colorDarkCyan);
+  background-color: var(--white);
+  box-shadow: 0 3px 10px hsl(208deg 31% 82%);
+  transition: 0.3s color, 0.3s background-color;
+}
+
+.headerNav-btn:hover {
+  color: var(--white);
+  background-color: var(--colorDarkCyan);
+}
+
+.headerDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin-block-start: 3rem;
+}
+
+.headerDescription-content button {
+  margin-block-start: 1rem;
+}

@@ -1,0 +1,70 @@
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
+@import url(./media-query.css);
+
+:root {
+  --colorPrimary: #ff52bf;
+  --colorPaleCyan: #ebfbff;
+  --colorDarkCyan: #00252e;
+  --colorGrayishBlue: #808d99;
+  --backgroundColor: rgba(222, 245, 254, 0.5);
+  --white: #fff;
+  --headlineFont: 'Poppins';
+  --headline1: bold 1.875rem / normal var(--headlineFont);
+  --headline2: bold 1.5625rem / normal var(--headlineFont);
+  --bodyFont: 'Open Sans';
+  --body: normal 1.125rem / normal var(--bodyFont);
+  --btn: bold 0.875rem / normal var(--bodyFont);
+}
+
+body {
+  margin: 0;
+  font: var(--body);
+}
+
+h1 {
+  font: var(--headline1);
+}
+
+h2 {
+  font: var(--headline2);
+  color: var(--colorDarkCyan);
+}
+
+h3 {
+  color: var(--colorDarkCyan);
+}
+
+img {
+  max-inline-size: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 90rem;
+  margin: auto;
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+}
+
+.btn {
+  padding-inline-start: 55px;
+  padding-inline-end: 55px;
+  padding-block-start: 12px;
+  padding-block-end: 12px;
+  border: none;
+  border-radius: 1.5625rem;
+  font: var(--btn);
+  cursor: pointer;
+  color: var(--white);
+  background-color: var(--colorPrimary);
+  box-shadow: 0 3px 10px hsl(208deg 31% 82%);
+  transition: 0.3s color, 0.3s background-color;
+  transform: scale(1);
+}
+
+.btn:hover {
+  color: var(--colorDarkCyan);
+  background-color: var(--white);
+}

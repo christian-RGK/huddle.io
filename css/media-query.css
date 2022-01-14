@@ -1,0 +1,95 @@
+@media screen and (min-width: 1024px) {
+  /* Header Section */
+  header {
+    padding-block-end: 5rem;
+    text-align: start;
+    background: url('../assets/images/bg-hero-desktop.svg') no-repeat center /
+      cover;
+    background-color: var(--backgroundColor);
+  }
+
+  .headerNav .headerNav_btn {
+    padding-inline-start: 3rem;
+    padding-inline-end: 3rem;
+  }
+
+  .headerDescription {
+    flex-direction: row;
+    gap: 5rem;
+    margin-block-start: 4rem;
+  }
+
+  .headerDescription-content {
+    max-inline-size: 33.5625rem;
+  }
+
+  .headerDescription-content button {
+    padding-block-start: 1rem;
+    padding-block-end: 1rem;
+  }
+
+  .headerDescription-title {
+    font-size: 2.5rem;
+  }
+
+  .headerDescription-img {
+    inline-size: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* Main Section */
+  main {
+    text-align: initial;
+  }
+
+  .articleContainer {
+    flex-direction: row;
+    gap: 8rem;
+    max-inline-size: 73.125rem;
+    margin: auto;
+  }
+
+  .articleContainer:nth-child(odd) .article-text {
+    order: -1;
+  }
+
+  .article-img,
+  .article-text {
+    inline-size: 50%;
+  }
+
+  .article-text {
+    max-inline-size: 32.5rem;
+  }
+
+  .articleContainer img {
+    inline-size: 100%;
+  }
+
+  .build {
+    margin-block-start: 12rem;
+  }
+
+  .build-content h3 {
+    font: var(--headline2);
+  }
+
+  .footer-text {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-col.space {
+    margin-block-end: 0rem;
+  }
+
+  .footer-col:nth-of-type(2) {
+    margin-block-end: 0rem;
+  }
+
+  .footer-copy {
+    margin-block-start: 2rem;
+    text-align: end;
+  }
+}
